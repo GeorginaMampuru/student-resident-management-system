@@ -1,14 +1,15 @@
-// eslint-disable-next-line no-unused-vars
 import React from 'react';
-
-import { Dashboard, Administration } from './containers';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { SignIn, Dashboard, Administration } from './containers';
 
 const App = () => (
-  <div className="app">
-    {/* <Navbar /> */}
-    <Dashboard />
-    <Administration />
-  </div>
+  <Router>
+    <Routes>
+      <Route path="/" element={<SignIn />} /> {/* Set SignIn component as the first page */}
+      <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/administration" element={<Administration />} />
+    </Routes>
+  </Router>
 );
 
 export default App;
