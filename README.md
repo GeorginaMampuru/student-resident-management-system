@@ -1,6 +1,10 @@
 # Student Resident Management System
 
-The **Student Resident Management System** is a comprehensive solution designed to modernize and streamline management within educational institutions, particularly in handling student resident data. This system stands as an innovative approach to solve the challenges faced by traditional manual processes and communication gaps prevalent in managing student accommodations.
+
+
+The **Student Resident Management System**
+![Screenshot 2024-01-09 113712](https://github.com/GeorginaMampuru/student-resident-management-system/assets/66384787/3ea7a0a1-7b2d-453c-ae89-a6047a4e98b9)
+ is a comprehensive solution designed to modernize and streamline management within educational institutions, particularly in handling student resident data. This system stands as an innovative approach to solve the challenges faced by traditional manual processes and communication gaps prevalent in managing student accommodations.
 
 ## Overview
 
