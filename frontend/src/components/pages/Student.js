@@ -127,7 +127,7 @@ class Student extends Component {
                         <div className="card-body">
                             <h5 className="card-title">SACCO</h5>
                             <h6 className="card-subtitle mb-2 text-muted">Females Only</h6>
-                            <p onClick={() => this.onBatchSelect('SACCO')} className="card-text" style={{
+                            <p onClick={() => this.onBatchSelect('')} className="card-text" style={{
                                 cursor: 'pointer',
                                 color: '#00a4eb'
                             }}>Add or Check Info</p>
